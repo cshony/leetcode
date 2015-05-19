@@ -53,6 +53,6 @@ public:
 			}
 			mergeLen*=2;
 		}
-        return fakeHead.next;
-    }
+		return fakeHead.next;
+	}
 };
