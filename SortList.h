@@ -1,3 +1,14 @@
+/*
+ Author:     cshony
+ Date:       May 19, 2015
+ Problem:    Sort List
+ Difficulty: Medium
+ Source:     https://leetcode.com/problems/sort-list/
+ Notes:
+ Sort a linked list in O(nlogn) time using constant space complexity.
+ Solution: merge sort without recursion.
+ */
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
