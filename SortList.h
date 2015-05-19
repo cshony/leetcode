@@ -29,7 +29,7 @@ public:
 		}
 		return pre;
 	}
-    ListNode* sortList(ListNode *head) {
+	ListNode* sortList(ListNode *head) {
         ListNode fakeHead(0);
         fakeHead.next = head;
 		int mergeLen = 1, mergeCount = 2;
