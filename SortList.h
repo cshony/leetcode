@@ -16,7 +16,7 @@
  *     ListNode *next;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
- */
+ */ 
 class Solution {
 public:
 	ListNode* mergeList(ListNode *pre, ListNode *head1, ListNode *head2) {
