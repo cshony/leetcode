@@ -30,8 +30,8 @@ public:
 		return pre;
 	}
 	ListNode* sortList(ListNode *head) {
-        ListNode fakeHead(0);
-        fakeHead.next = head;
+		ListNode fakeHead(0);
+		fakeHead.next = head;
 		int mergeLen = 1, mergeCount = 2;
 		while(mergeCount > 1) {
 			ListNode *cur = fakeHead.next, *pre = &fakeHead;
